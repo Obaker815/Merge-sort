@@ -63,18 +63,5 @@
 
             return array;
         }
-
-    }
-
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            string[] Array = { "f", "g", "a", "b", "c", "d"};
-
-            Array.MergeSort();
-
-            Console.WriteLine(string.Join(",", Array));
-        }
     }
 }
